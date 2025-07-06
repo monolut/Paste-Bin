@@ -45,6 +45,19 @@ src/main/java/org/ashirov/nicolai/pastebin
 └── PasteBinApplication.java # Main application class
 ```
 
+## 🧩 Example Request/Response
+
+### Create Paste (POST /paste)
+
+**Request Body**
+```json
+{
+  "title": "My First Paste",
+  "content": "This is an example paste content."
+}
+```
+**Response**
+a1b2c3d4 # Example of hash
 ---
 
 ### Build the project
