@@ -44,6 +44,7 @@ src/main/java/org/ashirov/nicolai/pastebin
 │ └── Scheduled.java # Optional scheduled tasks
 └── PasteBinApplication.java # Main application class
 ```
+---
 
 ## 🧩 Example Request/Response
 
@@ -57,7 +58,9 @@ src/main/java/org/ashirov/nicolai/pastebin
 }
 ```
 **Response**
+```
 a1b2c3d4 # Example of hash
+```
 ---
 
 ### Build the project
