@@ -64,15 +64,14 @@ a1b2c3d4 # Example of hash
 ---
 
 ### Build the project
-
+```
 git clone https://github.com/monolut/Paste-Bin.git
 cd Paste-Bin
 
 CREATE DATABASE pastebin;
 CREATE USER pastebin_user WITH ENCRYPTED PASSWORD 'yourpassword';
 GRANT ALL PRIVILEGES ON DATABASE pastebin TO pastebin_user;
-
+```
 Edit src/main/resources/application.properties
-
 
 
