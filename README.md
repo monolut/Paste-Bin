@@ -26,6 +26,7 @@ It allows users to create and retrieve text pastes via a REST API, storing files
 ---
 
 ## 📂 Project Structure
+```
 src/main/java/org/ashirov/nicolai/pastebin
 ├── config
 │ ├── S3Config.java # S3/Cloudflare R2 configuration
@@ -42,6 +43,9 @@ src/main/java/org/ashirov/nicolai/pastebin
 │ ├── RedisGenerateHash.java # Redis integration for hash generation
 │ └── Scheduled.java # Optional scheduled tasks
 └── PasteBinApplication.java # Main application class
+```
+
+---
 
 ### Build the project
 
