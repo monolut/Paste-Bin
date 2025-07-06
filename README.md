@@ -53,8 +53,8 @@ src/main/java/org/ashirov/nicolai/pastebin
 **Request Body**
 ```json
 {
-  "title": "My First Paste",
-  "content": "This is an example paste content."
+  "content": "This is an example paste content.",
+  "expires": "2025-07-07T15:30:00"
 }
 ```
 **Response**
